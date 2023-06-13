@@ -28,9 +28,9 @@ body {
   margin-right: 8vw;
   margin-bottom: 3vw;
   display: grid;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
+  align-items:center;
+  justify-content:center;
+  height: fit-content;
 }
 #wh {
   width: 100%;
@@ -44,11 +44,11 @@ body {
   justify-content: center;
 }
 .but {
-  margin-top: 1vw;
-  margin-bottom: 1vw;
+  margin-top: 4vw;
+  margin-bottom: 4vw;
   border-radius: 2vw;
   background-color: rgb(195, 195, 195);
   width: 70vw;
-  height: 80%;
+  height: 100px;
   font-size: 7vw;
 }
