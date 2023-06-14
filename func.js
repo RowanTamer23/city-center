@@ -17,10 +17,10 @@ function calllost() {
 }
 
 function f1() {
-  window.open("tel:01273722974");
+  window.open("tel:01022276020");
 }
 function f2() {
-  window.open("https://wa.me/201273722974");
+  window.open("https://wa.me/201022276020");
 }
 
 function callsec() {
@@ -40,8 +40,8 @@ function callsec() {
   document.getElementById("security").remove();
 }
 function f11() {
-  window.open("tel:01030160168");
+  window.open("tel:01224113999");
 }
 function f12() {
-  window.open("https://wa.me/201030160168");
+  window.open("https://wa.me/201224113999");
 }
