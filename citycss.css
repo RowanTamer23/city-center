@@ -2,20 +2,22 @@ body {
   background-color: rgb(255, 255, 255);
   background-repeat: no-repeat;
   overflow: scroll;
-  margin-top: 10%;
   scroll-behavior: smooth;
-  height: fit-content;
+  background-size:cover;
+
 }
 header{
   display: flex;
   background-color: rgb(255, 255, 255);
 }
 #bgimg {
+  background-repeat: no-repeat;
   width: 100%;
-  height: 100%;
-  opacity: 0.8;
+  height: 80%;
+  opacity: 0.3;
   position: fixed;
   z-index: -1;
+  
   background-attachment: fixed;
 }
 .but:hover {
@@ -38,8 +40,6 @@ header{
 #wh {
   width: 70%;
   padding: 2vw;
-  /* margin-left: 16%;
-  margin-right: 16%; */
   background-color: rgba(13, 41, 93, 0.99);
   border-radius: 2vw;
   color: rgb(255, 255, 255);
@@ -106,20 +106,20 @@ header{
   height: fit-content;
   font-size: 6vw;
 }
-
-  #new11 {
-    border-radius: 2vw;
-    z-index: 1;
-    margin-top: 8vw;
-    margin-left: 8vw;
-    margin-right: 8vw;
-    margin-bottom: 1vw;
+#new11 {
+  border-radius: 2vw;
+  z-index: 1;
+  margin-top: 8vw;
+  margin-left: 8vw;
+  margin-right: 8vw;
+  margin-bottom: 1vw;
+  display: flex;
+  justify-content:center;
+  height: fit-content;
+  font-size: 6vw;
+}
+  #header {
     display: flex;
-    justify-content:center;
-    height: fit-content;
-    font-size: 6vw;
-  }
-    #header {
-      display: flex;
-      justify-content:center ;
-    }
+    justify-content:center ;
+    margin-top: 10%;
+}
