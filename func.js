@@ -1,5 +1,5 @@
 function calllost() {
-  document.getElementById("new11").innerHTML = "lost and found";
+  document.getElementById("new11").innerHTML = "customer service";
   document.getElementById("butt1").remove();
 
   var news = document.createElement("button");
@@ -23,7 +23,7 @@ function f2() {
 }
 
 function callsec() {
-  document.getElementById("new22").innerHTML = "security control";
+  document.getElementById("new22").innerHTML = "control room";
   var news = document.createElement("button");
   news.innerHTML = "whatsapp";
   news.setAttribute("id", "butt");

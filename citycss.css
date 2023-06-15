@@ -116,7 +116,7 @@ height: 100%;
   padding-bottom: 10%;
 }
 #new11 {
-  color:white;
+  color:#ffffff;
   border-radius: 2vw;
   display: grid;
   justify-content:center;
@@ -167,7 +167,7 @@ height: 100%;
   animation: 4s rotate linear infinite; ;
 
 }
-/* #butt::before{
+#butt::before{
   content: '';
   position:absolute;
   width: 30vw;
@@ -177,4 +177,4 @@ height: 100%;
   background-image: conic-gradient(transparent,#FF5500,#FF5500,#FF5500);
   animation: 4s rotate linear infinite; ;
 
-} */
+}
