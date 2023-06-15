@@ -20,8 +20,9 @@ height: 100%;
 }
 #img {
   background-color: white;
-  width: 20vw;
-  height: 18vw;
+  width: 22vw;
+  height: 20vw;
+  padding-bottom: 5vw;
   z-index: 1;
   justify-self: right;
   
@@ -167,7 +168,7 @@ height: 100%;
   animation: 4s rotate linear infinite; ;
 
 }
-#butt::before{
+/* #butt::before{
   content: '';
   position:absolute;
   width: 30vw;
@@ -177,4 +178,4 @@ height: 100%;
   background-image: conic-gradient(transparent,#FF5500,#FF5500,#FF5500);
   animation: 4s rotate linear infinite; ;
 
-}
+} */
