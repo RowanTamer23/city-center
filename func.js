@@ -16,6 +16,7 @@ function calllost() {
 
   document.getElementById("but1").style.color = "white";
   document.getElementById("but1").style.fontSize = "7vw";
+  document.getElementById("but1").style.width = "fit-content";
 
   document.getElementById("span").remove();
   // document.getElementById("butt1").style.height = "2vw";
@@ -50,8 +51,10 @@ function callsec() {
 
   document.getElementById("but2").style.color = "white";
   document.getElementById("but2").style.fontSize = "7vw";
-  document.getElementById("but2").style.justifyContent = "right";
   document.getElementById("main").style.alignItems = "top";
+  document.getElementById("but2").style.width = "fit-content";
+  document.getElementById("but2").style.width = "fit-content";
+  document.getElementById("main").style.justifyContent = "space-around";
 
   // var x = document.createElement("div");
   // x.setAttribute("id", "imgg");
