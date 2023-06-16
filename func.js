@@ -1,18 +1,21 @@
 // document.getElementById("new2").style.alignSelf = "end";
 function calllost() {
-  document.getElementById("new11").innerHTML = "customer service";
+  document.getElementById("but1").innerHTML = "customer service";
 
   var news = document.createElement("button");
   news.innerHTML = "whatsapp";
   news.setAttribute("id", "butt");
   news.setAttribute("onclick", "f2()");
-  document.getElementById("new11").appendChild(news);
+  document.getElementById("but1").appendChild(news);
 
   var neww = document.createElement("button");
   neww.innerHTML = "call";
-  neww.setAttribute("id", "butt");
+  neww.setAttribute("id", "buttt");
   neww.setAttribute("onclick", "f1()");
-  document.getElementById("new11").appendChild(neww);
+  document.getElementById("but1").appendChild(neww);
+
+  document.getElementById("but1").style.color = "white";
+  document.getElementById("but1").style.fontSize = "7vw";
 
   document.getElementById("span").remove();
   // document.getElementById("butt1").style.height = "2vw";
@@ -31,18 +34,24 @@ function callsec() {
   // y.setAttribute("id", "new2");
   // document.getElementById("but2").appendChild(y);
 
-  document.getElementById("new22").innerHTML = "Security";
+  document.getElementById("but2").innerHTML = "Security";
+
   var news = document.createElement("button");
   news.innerHTML = "whatsapp";
   news.setAttribute("id", "butt");
   news.setAttribute("onclick", "f12()");
-  document.getElementById("new22").appendChild(news);
+  document.getElementById("but2").appendChild(news);
 
   var neww = document.createElement("button");
   neww.innerHTML = "call";
-  neww.setAttribute("id", "butt");
+  neww.setAttribute("id", "buttt");
   neww.setAttribute("onclick", "f11()");
-  document.getElementById("new22").appendChild(neww);
+  document.getElementById("but2").appendChild(neww);
+
+  document.getElementById("but2").style.color = "white";
+  document.getElementById("but2").style.fontSize = "7vw";
+  document.getElementById("but2").style.justifyContent = "right";
+  document.getElementById("main").style.alignItems = "top";
 
   // var x = document.createElement("div");
   // x.setAttribute("id", "imgg");
