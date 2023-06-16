@@ -30,7 +30,7 @@ function callsec() {
   y.setAttribute("id", "new2");
   document.getElementById("but2").appendChild(y);
 
-  document.getElementById("new22").innerHTML = "control room";
+  document.getElementById("new22").innerHTML = "Security";
   var news = document.createElement("button");
   news.innerHTML = "whatsapp";
   news.setAttribute("id", "butt");
