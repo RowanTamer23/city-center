@@ -1,15 +1,16 @@
 *{
   margin: 0;
-  padding: 0;
+  padding-bottom: 0;
   box-sizing: border-box;
 }
 body {
-  background-image: url("bg.png");
+  background-image: url("Eng.png");
+  background-color: black;
   overflow: scroll;
   scroll-behavior: smooth;
   margin: 0;
-  background-size:cover;
-  background-position: center;
+  background-size:contain;
+  background-position:bottom;
   background-repeat: no-repeat;
   width: 100%;
 }
@@ -36,10 +37,6 @@ body {
 #main {
   border-radius: 2vw;
   z-index: 1;
-  margin-top: 0vw;
-  margin-left: 0vw;
-  margin-right: 0vw;
-  margin-bottom: 0vw;
   display: flex;
   align-items:center;
   justify-content:center;
@@ -49,7 +46,8 @@ body {
   float: top;
   z-index: -1;
   width: 100%;
-  padding-top: 10vw;
+  /* margin-top: 10vw; */
+  /* padding-top: 10vw; */
   padding-bottom: 3vw;
   color: rgb(255, 255, 255);
   display:grid;
@@ -98,7 +96,7 @@ body {
   justify-content:center;
   height: fit-content;
 }
-#news2 {
+/* #news2 {
   border-radius: 100%;
   z-index: 1;
   margin-top: 0vw;
@@ -107,9 +105,9 @@ body {
   margin-bottom: 3vw;
   display: grid;
   justify-content:center;
-  align-self: end;
+  align-self: top;
   height: fit-content;
-}
+} */
 #new2 {
   border-radius: 100%;
   z-index: 1;
@@ -126,18 +124,21 @@ body {
   color:white;
   border-radius: 100%;
   display: grid;
-  align-self: end;
-  justify-content:center;
+  align-items: right;
+  justify-content:right;
   height: fit-content;
   font-size:7vw;
   padding-bottom: 10%;
 }
+#text{
+  justify-self: center;
+}
 #new11 {
-  color:#ffffff;
-  border-radius: 2vw;
+  color:white;
+  border-radius: 100%;
   display: grid;
+  align-self: top;
   justify-content:center;
-  align-self: end;
   height: fit-content;
   font-size:7vw;
   padding-bottom: 10%;
@@ -155,16 +156,20 @@ body {
 }
 #but2{
   display: grid;
-  justify-content: center;
   width:50%;
   height: 100%;
 
 }
 #butt2{
   display: grid;
-  align-items: end;
-  justify-self: center;
+  align-items: top;
+  justify-self: top;
 
+}
+#butt1{
+display: grid;
+align-items: top;
+justify-self: top;
 }
 #span{
   border: 2vw;

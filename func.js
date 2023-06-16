@@ -6,16 +6,17 @@ function calllost() {
   news.innerHTML = "whatsapp";
   news.setAttribute("id", "butt");
   news.setAttribute("onclick", "f2()");
-  document.getElementById("new1").appendChild(news);
+  document.getElementById("new11").appendChild(news);
 
   var neww = document.createElement("button");
   neww.innerHTML = "call";
   neww.setAttribute("id", "butt");
   neww.setAttribute("onclick", "f1()");
-  document.getElementById("new1").appendChild(neww);
+  document.getElementById("new11").appendChild(neww);
 
   document.getElementById("span").remove();
-  document.getElementById("butt1").style.height = "18vw";
+  // document.getElementById("butt1").style.height = "2vw";
+  // document.getElementById("butt1").style.height = "18vw";
 }
 
 function f1() {
@@ -26,31 +27,31 @@ function f2() {
 }
 
 function callsec() {
-  var y = document.createElement("div");
-  y.setAttribute("id", "new2");
-  document.getElementById("but2").appendChild(y);
+  // var y = document.createElement("div");
+  // y.setAttribute("id", "new2");
+  // document.getElementById("but2").appendChild(y);
 
   document.getElementById("new22").innerHTML = "Security";
   var news = document.createElement("button");
   news.innerHTML = "whatsapp";
   news.setAttribute("id", "butt");
   news.setAttribute("onclick", "f12()");
-  document.getElementById("new2").appendChild(news);
+  document.getElementById("new22").appendChild(news);
 
   var neww = document.createElement("button");
   neww.innerHTML = "call";
   neww.setAttribute("id", "butt");
   neww.setAttribute("onclick", "f11()");
-  document.getElementById("new2").appendChild(neww);
+  document.getElementById("new22").appendChild(neww);
 
-  var x = document.createElement("div");
-  x.setAttribute("id", "imgg");
-  document.getElementById("but2").appendChild(x);
+  // var x = document.createElement("div");
+  // x.setAttribute("id", "imgg");
+  // document.getElementById("but2").appendChild(x);
 
-  document.getElementById("imgg").appendChild(document.getElementById("img"));
+  // document.getElementById("imgg").appendChild(document.getElementById("img"));
 
-  document.getElementById("butt2").remove();
-  document.getElementById("news2").remove();
+  document.getElementById("spann").remove();
+  // document.getElementById("news2").remove();
 }
 function f11() {
   window.open("tel:01224113999");
