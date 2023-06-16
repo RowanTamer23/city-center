@@ -1,29 +1,24 @@
 body {
-  background-color: rgb(255, 255, 255);
-  background-repeat: repeat;
+  background-image: URL("bg.png");
   overflow: scroll;
   scroll-behavior: smooth;
-  background-size: contain;
-  height: fit-content;
   margin: 0;
-}
-#bgimg{
-z-index: -1;
-position: absolute;
-width: 100%;
-height: 100%;
+  background-size:cover;
+  background-position: center;
 }
 #imgg{
+  height: 18vw;
   display: grid;
-  align-items: end;
-  justify-self:right ;
+  align-self: end;
 }
 #img {
   background-color: white;
   width: 22vw;
-  height: 20vw;
-  padding-bottom: 5vw;
+  height: 18vw;
+  display: grid;
+  margin-bottom: 0vw;
   z-index: 1;
+  align-self: end;
   justify-self: right;
   
 }
@@ -44,9 +39,11 @@ height: 100%;
   height: 90%;
 }
 #wh {
+  float: top;
   z-index: -1;
   width: 100%;
   padding-top: 10vw;
+  padding-bottom: 3vw;
   color: rgb(255, 255, 255);
   display:grid;
   font-size: 7vw;
@@ -94,6 +91,18 @@ height: 100%;
   justify-content:center;
   height: fit-content;
 }
+#news2 {
+  border-radius: 100%;
+  z-index: 1;
+  margin-top: 0vw;
+  margin-left: 8vw;
+  margin-right: 8vw;
+  margin-bottom: 3vw;
+  display: grid;
+  justify-content:center;
+  align-self: end;
+  height: fit-content;
+}
 #new2 {
   border-radius: 100%;
   z-index: 1;
@@ -102,10 +111,10 @@ height: 100%;
   margin-right: 8vw;
   margin-bottom: 3vw;
   display: grid;
-  align-items:top;
   justify-content:center;
-  height: fit-content;}
-
+  align-self: top;
+  height: fit-content;
+}    
 #new22 {
   color:white;
   border-radius: 100%;
@@ -158,6 +167,24 @@ height: 100%;
   justify-content: center;
 }
 #span::before{
+  content: '';
+  position: absolute;
+  width: 30vw;
+  z-index: -1;
+  height: 30vw;
+  border-radius: 100%;
+  background-image: conic-gradient(transparent,#FF5500,#FF5500,#FF5500);
+  animation: 4s rotate linear infinite; ;
+
+}
+#spann{
+  border: 2vw;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#spann::before{
   content: '';
   position: absolute;
   width: 30vw;
