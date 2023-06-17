@@ -55,8 +55,8 @@ function callsec() {
   document.getElementById("but2").style.width = "fit-content";
   document.getElementById("but2").style.width = "fit-content";
   document.getElementById("main").style.justifyContent = "space-around";
-  document.getElementById("butt").style.justifyContent = "center";
-  document.getElementById("butt").style.alignItems = "center";
+  document.getElementById("spann").style.justifyContent = "center";
+  document.getElementById("spann").style.alignItems = "center";
 
   // var x = document.createElement("div");
   // x.setAttribute("id", "imgg");
