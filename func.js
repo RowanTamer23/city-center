@@ -1,15 +1,15 @@
 // document.getElementById("new2").style.alignSelf = "end";
 function calllost() {
-  document.getElementById("but1").innerHTML = "customer service";
+  document.getElementById("but1").innerHTML = "Customer service";
 
   var news = document.createElement("button");
-  news.innerHTML = "whatsapp";
+  news.innerHTML = "Whatsapp";
   news.setAttribute("id", "butt");
   news.setAttribute("onclick", "f2()");
   document.getElementById("but1").appendChild(news);
 
   var neww = document.createElement("button");
-  neww.innerHTML = "call";
+  neww.innerHTML = "Call";
   neww.setAttribute("id", "buttt");
   neww.setAttribute("onclick", "f1()");
   document.getElementById("but1").appendChild(neww);
@@ -38,13 +38,13 @@ function callsec() {
   document.getElementById("but2").innerHTML = "Security";
 
   var news = document.createElement("button");
-  news.innerHTML = "whatsapp";
+  news.innerHTML = "Whatsapp";
   news.setAttribute("id", "butt");
   news.setAttribute("onclick", "f12()");
   document.getElementById("but2").appendChild(news);
 
   var neww = document.createElement("button");
-  neww.innerHTML = "call";
+  neww.innerHTML = "Call";
   neww.setAttribute("id", "buttt");
   neww.setAttribute("onclick", "f11()");
   document.getElementById("but2").appendChild(neww);
