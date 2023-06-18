@@ -7,7 +7,7 @@ body {
   background-color: rgb(91, 91, 91);
   overflow: scroll;
   scroll-behavior: smooth;
-  margin: 0;
+  margin: 2vw;
   background-size:contain;
   background-position:0 70vw;
   background-repeat: no-repeat;
@@ -45,9 +45,24 @@ body {
   width: 25vw ;
   height: 25vw;
   font-size: 5.5vw;
-  color: white;
+  color: white;}
 
+/* #security{
+  border-radius: 100%;
+  background-color:#1aa3ff;
+  width: 25vw ;
+  height: 25vw;
+  font-size: 5.5vw;
+  color: white;
 }
+#lost{
+  border-radius: 100%;
+  background-color:#ff1a1a;
+  width: 25vw ;
+  height: 25vw;
+  font-size: 5.5vw;
+  color: white;
+}*/
 @keyframes rotate {
   0%
   {
