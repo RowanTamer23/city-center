@@ -45,24 +45,24 @@ body {
   width: 25vw ;
   height: 25vw;
   font-size: 5.5vw;
-  color: white;}
-
+  color: white;
+}
 /* #security{
   border-radius: 100%;
   background-color:#1aa3ff;
   width: 25vw ;
   height: 25vw;
   font-size: 5.5vw;
-  color: white;
+  color: rgb(0, 0, 0);
 }
 #lost{
   border-radius: 100%;
-  background-color:#ff1a1a;
+  background-color:#f6ff00;
   width: 25vw ;
   height: 25vw;
   font-size: 5.5vw;
-  color: white;
-}*/
+  color: rgb(0, 0, 0);
+} */
 @keyframes rotate {
   0%
   {
