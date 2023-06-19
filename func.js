@@ -1,6 +1,6 @@
 // document.getElementById("new2").style.alignSelf = "end";
 function calllost() {
-  document.getElementById("but1").innerHTML = "Customer service";
+  document.getElementById("but1").innerHTML = "Customer Service";
 
   var news = document.createElement("button");
   news.innerHTML = "Whatsapp";
